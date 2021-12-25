@@ -47,6 +47,3 @@ while True:
         # Hand range 15 - 220
         # Volume range -63.5 - 0.0
         
-    cv.imshow('Image',pic)
-    if cv.waitKey(1) & 0xff==ord('q'):
-        break
